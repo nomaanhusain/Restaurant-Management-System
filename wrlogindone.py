@@ -43,7 +43,7 @@ def log_user():
     if username1 in list_of_files:
        file1=open(username1,"r")
        verify=file1.read().splitlines()
-       print(type(verify))
+       ##print(type(verify))
        if password1 in verify:
            import wrms
     else:
