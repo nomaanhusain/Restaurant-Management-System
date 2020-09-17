@@ -145,11 +145,11 @@ class rms:
         CostofIceCream = CoIceCream * 30
         CostPulav = CoPulav* 50
         CostTea = CoTea * 5
-        print(CostofIdly)
+        ##print(CostofIdly)
 
-        Central_GST= (((CostofIdly+CostofDrinks+CostofDosa+CostofIceCream+CostPulav+CostTea)* 2.5)/100)
+        Central_GST= (((CostofIdly+CostofDrinks+CostofDosa+CostofIceCream+CostPulav+CostTea)* 5)/100)
 
-        State_GST =(((CostofIdly+CostofDrinks+CostofDosa+CostofIceCream+CostPulav+CostTea)* 2.5)/100)
+        State_GST =(((CostofIdly+CostofDrinks+CostofDosa+CostofIceCream+CostPulav+CostTea)* 5)/100)
 
         Total_cost = (CostofIdly+CostofDrinks+CostofDosa+CostofIceCream+CostPulav+CostTea)
 
@@ -157,7 +157,7 @@ class rms:
         C_gst = "Rs", str ('%.2f' % Central_GST)
         S_gst = "Rs", str ('%.2f' % State_GST)
         OverAllCost ="Rs", str ('%.2f' % (Total_cost+Central_GST+State_GST))
-        print(OverAllCost)
+        ##print(OverAllCost)
 
         Sgst.set(S_gst)
         Cost.set(CostofMeal)
