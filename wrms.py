@@ -97,7 +97,7 @@ class rms:
         x=random.randint(10908,500876)
         randomRef=str(x)
         rand.set(randomRef)
-        print('ref workings')
+        ##print('ref workings')
         global CoIdly
         global CoDosa
         global CoIceCream
@@ -106,7 +106,7 @@ class rms:
             print("1")
         else:
             CoIdly=float(Idly.get())
-            print(CoIdly)
+            ##print(CoIdly)
 
 
         if (Dosa.get()==""):
